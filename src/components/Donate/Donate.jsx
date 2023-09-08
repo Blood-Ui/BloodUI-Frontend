@@ -1,7 +1,7 @@
-"use client";
-import { Box1, Box2,Box3, Input1, Input3, Select1 } from "./DonateStyles.js";
+import { Box1, Box2,Box3, Input1, Input3, Select1 } from "./DonateStyles.jsx";
 import React from "react";
 import { useState } from "react";
+import image1 from "../../assets/image1.png";
 
 function Donate() {
   const [bgroup, setBgroup] = useState("");
@@ -117,7 +117,7 @@ function Donate() {
           </div>
           <div>
             <img
-              src="./assets/image1.png"
+              src={image1}
               alt="image1"
               style={{ width: "24rem", marginRight: "0" }}
             />
