@@ -15,7 +15,7 @@ export const Input1 = styled.input`
 border-radius: 2.5rem;
 border: 1px solid #9E896A;
 background: #FFF;
-width: 20rem;
+width: 14rem;
 height: 3rem;
 margin: 0.5rem 2rem;
 padding:0rem 1rem;
@@ -24,10 +24,23 @@ export const Select1 = styled.select`
 border-radius: 2.5rem;
 border: 1px solid #9E896A;
 background: #FFF;
-width: 4rem;
+width: 5rem;
 height: 3rem;
 margin: 0.5rem 2rem;
-padding:0rem 1rem;
+padding:0rem 0.5rem;
+outline: none;
+&::-ms-expand {
+	display: none;
+}
+`
+export const Select2 = styled.select`
+border-radius: 2.5rem;
+border: 1px solid #9E896A;
+background: #FFF;
+width: 10rem;
+height: 3rem;
+margin: 0.5rem 2rem;
+padding:0rem 0.5rem;
 outline: none;
 &&::-ms-expand {
 	display: none;
@@ -37,7 +50,34 @@ export const Input3 = styled.input`
 border-radius: 2.5rem;
 border: 1px solid #9E896A;
 background: #FFF;
-width: 15rem;
+width: 12rem;
+height: 3rem;
+margin: 0.5rem 2rem;
+padding:0rem 1rem;
+`
+export const Input4 = styled.input`
+border-radius: 2.5rem;
+border: 1px solid #9E896A;
+background: #FFF;
+width: 3rem;
+height: 3rem;
+text-align: center;
+margin-left: 2rem;
+`
+export const Input5 = styled.input`
+border-radius: 2.5rem;
+border: 1px solid #9E896A;
+background: #FFF;
+width: 10rem;
+height: 3rem;
+margin: 0.5rem 0.8rem;
+padding:0rem 1rem;
+`
+export const Input6 = styled.input`
+border-radius: 2.5rem;
+border: 1px solid #9E896A;
+background: #FFF;
+width: 10rem;
 height: 3rem;
 margin: 0.5rem 2rem;
 padding:0rem 1rem;
