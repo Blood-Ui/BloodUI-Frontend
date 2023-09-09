@@ -1,4 +1,4 @@
-import { Box1, Box2,Box3, Input1, Input3, Select1 } from "./DonateStyles.jsx";
+import { Box1, Box2,Box3, Input1, Input3, RedButton, RedButtondiv, Select1 } from "./DonateStyles.jsx";
 import React from "react";
 import { useState } from "react";
 import image1 from "../../assets/image1.png";
@@ -103,6 +103,7 @@ function Donate() {
                 <label htmlFor="name">Blood group*</label>
                 <br />
                 <Select1
+                style={{hover:{cursor:'pointer'}}}
                   name="bgroup"
                   onChange={(e) => setBgroup(e.target.value)}
                   value={bgroup}
@@ -111,7 +112,13 @@ function Donate() {
                   <option>B +ve</option>
                   <option>O +ve</option>
                   <option>AB +ve</option>
-                </Select1>
+                  <option>A -ve</option>
+                  <option>B -ve</option>
+                  <option>O -ve</option>
+                  <option>AB -ve</option>
+                </Select1><br/>
+                <div style={{display:"flex",marginTop:"3rem"}}><input type="checkbox" id="T&C" name="T&C"/><p>I Accept the Terms and Conditions</p></div>
+                <RedButtondiv><RedButton type="submit"value="Register"/></RedButtondiv> 
               </div>
             </Box3>
           </div>
@@ -124,6 +131,7 @@ function Donate() {
             <p>Join Us and be the reason for someone's existence.</p>
           </div>
         </Box2>
+        
       </Box1>
     </>
   );
