@@ -42,7 +42,7 @@ function Donor() {
                 </Select1>
               </div>
               <div>
-                <label htmlFor="name">Date of birth*</label>
+                <label htmlFor="name">Date of birth *</label>
                 <br />
                 <Input3
                   type="date"
