@@ -78,7 +78,7 @@ function Donor() {
                 </Select2>
               </div>
               <div>
-              <label htmlFor="city">City*</label>
+              <label htmlFor="city">City *</label>
                 <br />
                 <Input6
                   type="text"
