@@ -24,7 +24,7 @@ function Donate() {
                 />
               </div>
               <div>
-                <label htmlFor="name">Blood group*</label>
+                <label htmlFor="name">Blood group *</label>
                 <br />
                 <Select1
                   name="bgroup"
