@@ -67,7 +67,7 @@ function Donate() {
                 />
               </div>
               <div>
-                <label htmlFor="name">District*</label>
+                <label htmlFor="name">District *</label>
                 <br />
                 <Select2
                   name="bgroup"
