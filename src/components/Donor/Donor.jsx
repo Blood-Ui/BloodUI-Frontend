@@ -55,7 +55,7 @@ function Donor() {
             </Box3>
             <Box3 style={{ display: "flex" }}>
               <div>
-                <label htmlFor="name">Mobile number*</label>
+                <label htmlFor="name">Mobile number *</label>
                 <br />
                 <Input4 placeholder="+91"/>
                 <Input5
