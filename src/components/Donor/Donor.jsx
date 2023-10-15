@@ -13,7 +13,7 @@ function Donor() {
           <div style={{ display: "flex", flexDirection: "column" }}>
             <Box3 style={{ display: "flex" }}>
               <div>
-                <label htmlFor="name">Patien Name *</label>
+                <label htmlFor="name">Patient Name *</label>
                 <br />
                 <Input1
                   type="text"
