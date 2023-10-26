@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Box1 = styled.div`
     padding: 30px;
     width: 100%;
+    z-index: -1;
     `
 export const Box2 = styled.div`
 display: flex;
