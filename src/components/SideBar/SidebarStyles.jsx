@@ -1,4 +1,87 @@
-.sidebar {
+import styled from "styled-components";
+
+export const Sidebar = styled.div`
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100px;
+    background-color: #b21616;
+    display: flex;
+    overflow-y: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 1000;
+
+    &:hover {
+        width: 350px;
+    }
+`
+
+export const SidebarBody = styled.div`
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+`
+
+export const Logo = styled.div`
+    flex: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
+export const SidebarButtons = styled.div`
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+`
+
+export const SidebarButton = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+`
+
+export const SidebarText = styled.span`
+    
+`
+export const Logout = styled.div`
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+`
+
+export const LogoutSection = styled.div`
+    display: flex;
+    gap: 2rem;
+`
+
+export const ProfileSection = styled.div`
+    display: flex;
+    gap: 2rem;
+`
+export const UserPic = styled.div`
+
+`
+export const Img = styled.img`
+    border-radius: 20px;
+`
+
+
+
+
+
+
+
+
+
+/* .sidebar {
     top: 0;
     left: 0;
     height: 100vh;
@@ -200,4 +283,4 @@ header .image-text .header-text {
     top: 3px;
     transition: var(--trans-04);
 }
-
+ */
