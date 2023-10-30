@@ -11,6 +11,8 @@ export const Sidebar = styled.div`
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     z-index: 1000;
+    color: white;
+    transition: width 0.5s ease;
 
     &:hover {
         width: 350px;
@@ -37,18 +39,23 @@ export const SidebarButtons = styled.div`
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
+    cursor: pointer;
 `
 
 export const SidebarButton = styled.div`
     display: flex;
+    width: 300px;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
+
 `
 
 export const SidebarText = styled.span`
-    
+    position: relative;
 `
+
 export const Logout = styled.div`
     flex: 20%;
     display: flex;

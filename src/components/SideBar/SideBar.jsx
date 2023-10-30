@@ -95,16 +95,6 @@ const SideBar = () => {
             </SidebarButtons>
 
             <Logout>
-                <LogoutSection>
-                    <a href="#">
-                        <img 
-                            src={logout} 
-                            alt="home"
-                            width={25}
-                            height={25}/>
-                    </a>
-                    <SidebarText>Logout</SidebarText>
-                </LogoutSection>
                 <ProfileSection>
                      <UserPic>
                         <Img 
@@ -116,6 +106,16 @@ const SideBar = () => {
                     </UserPic>
                     <SidebarText>K S Abhishek</SidebarText>
                 </ProfileSection>
+                <LogoutSection>
+                    <a href="#">
+                        <img 
+                            src={logout} 
+                            alt="home"
+                            width={25}
+                            height={25}/>
+                    </a>
+                    <SidebarText>Logout</SidebarText>
+                </LogoutSection>
             </Logout>
         </SidebarBody>
     </Sidebar>
