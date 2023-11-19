@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Box1 = styled.div`
-    padding: 30px;
+    padding: 4em;
     width: 100%;
     z-index: -1;
     `
