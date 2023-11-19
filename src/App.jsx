@@ -12,7 +12,6 @@ const App = () => {
     <>
     <div style={{display:'flex'}}>
       <Layout/>
-      <LandingPage/>
       </div>
     </>
   )

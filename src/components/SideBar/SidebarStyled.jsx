@@ -4,15 +4,15 @@ export const Sidebar = styled.div`
     top: 0;
     left: 0;
     height: 100vh;
-    width: 100px;
+    width:5em;
     background-color: #b21616;
     display: flex;
-    overflow-y: hidden;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     z-index: 1000;
     color: white;
     transition: width 0.5s ease;
+    position: fixed;
 
     &:hover {
         width: 350px;
