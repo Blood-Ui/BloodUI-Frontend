@@ -10,8 +10,8 @@ function Layout() {
     <SideBar/>
     <Box1>
       <LandingPage/>
-    <Donor/>
-    <Donate/>
+      <Donor/>
+      <Donate/>
     </Box1>
 
     </>

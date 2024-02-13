@@ -4,12 +4,12 @@ export const Sidebar = styled.div`
     top: 0;
     left: 0;
     height: 100vh;
-    width:5em;
+    width: 80px;
     background-color: #b21616;
     display: flex;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    z-index: 1000;
+    /* z-index: 1000; */
     color: white;
     transition: width 0.5s ease;
     position: fixed;
@@ -44,16 +44,25 @@ export const SidebarButtons = styled.div`
 
 export const SidebarButton = styled.div`
     display: flex;
-    width: 300px;
-    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
 
+    &:hover {
+        width: 350px;
+    }
 `
 
 export const SidebarText = styled.span`
     position: relative;
+    width: 0px;
+    flex-direction: row;
+    align-items: center;
+
+    &:hover {
+        flex-wrap: nowrap;
+        width: 300px;
+    }
 `
 
 export const Logout = styled.div`
