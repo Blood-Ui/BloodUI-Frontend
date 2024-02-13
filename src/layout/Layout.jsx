@@ -6,14 +6,12 @@ import LandingPage from "../components/LandingPage/LandingPage"
 function Layout() {
   return (
     <>
-    
     <SideBar/>
     <Box1>
       <LandingPage/>
-    <Donor/>
-    <Donate/>
+      <Donor/>
+      <Donate/>
     </Box1>
-
     </>
   )
 }
