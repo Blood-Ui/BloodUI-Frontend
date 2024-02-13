@@ -13,7 +13,6 @@ function Layout() {
       <Donor/>
       <Donate/>
     </Box1>
-
     </>
   )
 }
