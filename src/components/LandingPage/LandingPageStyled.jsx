@@ -35,6 +35,9 @@ export const ImageDisplay = styled.div`
     margin-top: 10rem;
 `
 export const SuperHero = styled.img`
+    height: 15rem;
+    width: 20rem;
+    display: flex;
     
 `
 export const Text1 = styled.div`
