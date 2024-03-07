@@ -8,6 +8,7 @@ const LandingPage = () => {
   return (
     <Container>
       
+      {/* left side */}
       <Content>
         <Logo>
           <img src={logo} alt="logo" />
@@ -17,6 +18,7 @@ const LandingPage = () => {
         </About>
       </Content>
 
+      {/* right side */}
       <ImageDisplay>
         <SuperHero src={superHero} alt="superhero" />
         <Text1>Be a Super Hero</Text1>

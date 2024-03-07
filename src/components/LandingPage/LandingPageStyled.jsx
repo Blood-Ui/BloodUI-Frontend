@@ -4,10 +4,11 @@ export const Container = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
+    gap: 3.5rem;
 `
 
 export const Content = styled.div`
-    width: 70%;
+    width: 45%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,7 +20,7 @@ export const Content = styled.div`
 export const Logo = styled.div`
     display: flex;
     width: 1rem;
-    height: 2.5rem;
+    height: 3rem;
     
 `
 export const About = styled.div`
@@ -30,10 +31,11 @@ export const About = styled.div`
 `
 export const ImageDisplay = styled.div`
     display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
 `
 export const SuperHero = styled.img`
-    width: 100%;
-    height: 100%;
+    
 `
 export const Text1 = styled.div`
     color: black;
