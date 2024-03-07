@@ -13,7 +13,7 @@ const LandingPage = () => {
           <img src={logo} alt="logo" />
         </Logo>
         <About>
-          Welcome to Blood.ui our blood donation website! Our platform connects blood donors and recipients, making it easier than ever to save lives. Our website allows anyone to register as a blood donor and provide information about their blood type and availability. If you need blood, you can specify requirements and message them directly. We understand the urgency of finding donors quickly, so our platform is designed to be easy to use and efficient. We hope that our website can help save lives and create a stronger sense of community among blood donors and recipients. Thank you for visiting our website, and we encourage you to register as a blood donor or search for donors if you need blood. Together, we can make a difference and save lives.
+          Welcome to Blood.ui our blood donation website! Our platform connects blood donors and recipients, making it easier than ever to save lives.<br/> <br /> Our website allows anyone to register as a blood donor and provide information about their blood type and availability. If you need blood, you can specify requirements and message them directly. <br /> <br /> We understand the urgency of finding donors quickly, so our platform is designed to be easy to use and efficient. We hope that our website can help save lives and create a stronger sense of community among blood donors and recipients. <br /><br /> Thank you for visiting our website, and we encourage you to register as a blood donor or search for donors if you need blood. Together, we can make a difference and save lives.
         </About>
       </Content>
 

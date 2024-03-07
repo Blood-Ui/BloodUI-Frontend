@@ -11,18 +11,22 @@ export const Content = styled.div`
     height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-left: 10rem;
+    margin-left: 13rem;
     margin-top: 5rem;
+    gap: 3rem;
 `
+
 export const Logo = styled.div`
     display: flex;
     width: 1rem;
     height: 2.5rem;
+    
 `
 export const About = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    font-size: 1.2rem;
 `
 export const ImageDisplay = styled.div`
     display: flex;
