@@ -16,8 +16,8 @@ export const Content = styled.div`
 `
 export const Logo = styled.div`
     display: flex;
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 2.5rem;
 `
 export const About = styled.div`
     display: flex;
