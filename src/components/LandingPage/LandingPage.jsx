@@ -21,7 +21,7 @@ const LandingPage = () => {
       {/* right side */}
       <ImageDisplay>
         <SuperHero src={superHero} alt="superhero" />
-        <Text1>Be a Super Hero</Text1>
+        <Text1>Be a <br />Superhero</Text1>
         <Text2>Join Us and be the reason for someone's existence.</Text2>
       </ImageDisplay>
 
