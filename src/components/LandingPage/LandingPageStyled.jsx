@@ -10,16 +10,19 @@ export const Content = styled.div`
     width: 70%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-top: 5rem;
 `
 export const Logo = styled.div`
     display: flex;
-    width: 40px;
+    width: 2rem;
+    height: 2rem;
 `
 export const About = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 2rem;
 `
 export const ImageDisplay = styled.div`
     display: flex;
