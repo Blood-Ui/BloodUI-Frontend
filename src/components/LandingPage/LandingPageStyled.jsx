@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
-// export const RedStripTop = styled.div`
-//     width: 100%;
-//     height: 1rem;
-//     background-color: #b21616;
-// `
+export const RedStripTop = styled.div`
+    width: 100%;
+    height: 0.4rem;
+    background-color: #b21616;
+    top: 0;
+    position: fixed;
+`
 
 export const Container = styled.div`
     width: 100%;
