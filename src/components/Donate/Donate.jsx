@@ -122,9 +122,8 @@ function Donate() {
             <img
               src={image1}
               alt="image1"
-              style={{ width: "24rem", marginRight: "0" }}
+              style={{ width: "20rem", marginRight: "17rem" }}
             />
-            <p>Join Us and be the reason for someone's existence.</p>
           </div>
         </Box2>
         

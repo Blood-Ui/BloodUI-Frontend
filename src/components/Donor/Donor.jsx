@@ -122,9 +122,8 @@ function Donor() {
             <img
               src={image1}
               alt="donorimage"
-              style={{ width: "15rem"}}
+              style={{ width: "17rem"}}
             />
-            <p>Join Us and be the reason for someone's existence.</p>
           </DonorImage>
         </Box2>
         

@@ -103,5 +103,5 @@ border: none;
 }
 `
 export const DonorImage = styled.div`
-    margin-right: 15rem;
+    margin-right: 20rem;
 `
