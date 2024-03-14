@@ -1,7 +1,7 @@
 import React from 'react'
 import { RedStripTop ,Container, Content, Logo, About, ImageDisplay, SuperHero, Text1, Text2} from './LandingPageStyled.jsx'
 import logo from '../../assets/logo.png'
-import superHero from '../../assets/superhero.png'
+import superHero from '../../assets/Superhero.png'
 
 
 const LandingPage = () => {
