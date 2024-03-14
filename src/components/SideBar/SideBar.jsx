@@ -8,77 +8,93 @@ import logoWhite from '../../assets/logoWhite.png'
 import logout from '../../assets/logout.png'
 import userPic from '../../assets/user.jpg'
 
-import { Logo, Sidebar, SidebarBody, SidebarButtons, SidebarButton, SidebarText, LogoutSection, ProfileSection, UserPic, Logout, Img } from './SidebarStyled';
+import { Logo, Sidebar, SidebarBody, SidebarButtons, SidebarButton, SidebarText, LogoutSection, ProfileSection, UserPic, Logout, Img, Link } from './SidebarStyled';
 
 const SideBar = () => {
 
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    const handleMouseEnter = () => {
+        setIsExpanded(true);
+    };
+
+    const handleMouseLeave = () => {
+        setIsExpanded(false);
+    };
+
   return (
 
-    <Sidebar>
+    <Sidebar onMouseEnter={handleMouseEnter}
+    onMouseLeave={handleMouseLeave}
+    style={{ width: isExpanded ? '350px' : '80px' }}>
         <SidebarBody>
-            <Logo>
-                <a href="#">
+            {/* <Logo>
+                <Link href="#">
                     <img 
                         src={logoWhite} 
                         alt='logoWhite'
                         width={100}
                         />
-                </a>
-            </Logo>
+                </Link>
+            </Logo> */}
             <SidebarButtons>
                 <SidebarButton>
-                    <a href="#">
+                    <Link href="#">
                         <img 
                             src={home} 
                             alt="home"
                             width={25}
                             height={25}/>
-                    </a>
-                    <SidebarText>Home</SidebarText>
+                            <SidebarText style={{visibility: isExpanded ? 'visible' : 'hidden'}}>Home</SidebarText>
+                    </Link>
                 </SidebarButton>
 
                 <SidebarButton>
-                    <a href="#">
+                    <Link href="#">
                         <img 
                             src={donate} 
                             alt="donate"
                             width={25}
                             height={25}/>
-                    </a>
-                    <SidebarText>Donate</SidebarText>
+                            <SidebarText>Donate</SidebarText>
+                    </Link>
+                    
                 </SidebarButton>
 
                 <SidebarButton>
-                    <a href="#">
+                    <Link href="#">
                         <img 
                             src={findDonor} 
                             alt="findDonor"
                             width={25}
                             height={25}/>
-                    </a>
-                    <SidebarText>Find Donor</SidebarText>
+                            <SidebarText>Find Donor</SidebarText>
+                    </Link>
+                    
                 </SidebarButton>
 
                 <SidebarButton>
-                    <a href="#">
+                    <Link href="#">
                         <img 
                             src={about} 
                             alt="about"
                             width={25}
                             height={25}/>
-                    </a>
-                    <SidebarText>About</SidebarText>
+                            <SidebarText>About</SidebarText>
+                    </Link>
+                    
                 </SidebarButton>
 
                 <SidebarButton>
-                    <a href="#">
+                    <Link href="#">
                         <img 
                             src={contact} 
                             alt="contact"
                             width={25}
                             height={25}/>
-                    </a>
-                    <SidebarText>Contact</SidebarText>
+                            <SidebarText>Contact</SidebarText>
+                    </Link>
+                    
                 </SidebarButton>
             </SidebarButtons>
 
