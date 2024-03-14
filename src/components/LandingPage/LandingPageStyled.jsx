@@ -1,65 +1,61 @@
 import styled from "styled-components";
 
+export const RedStripTop = styled.div`
+    width: 100%;
+    height: 0.4rem;
+    background-color: #b21616;
+    top: 0;
+    position: fixed;
+`
+
 export const Container = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    gap: 6rem;
 `
 
-export const MainContent = styled.div`
+export const Content = styled.div`
+    width: 45%;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
+    margin-left: 13rem;
+    margin-top: 6rem;
+    gap: 3rem;
 `
 
-export const Heading = styled.img`
+export const Logo = styled.div`
     display: flex;
-`
+    width: 1rem;
+    height: 3rem;
     
-export const Content = styled.p`
+`
+export const About = styled.div`
     display: flex;
-
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.2rem;
+`
+export const ImageDisplay = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+`
+export const SuperHero = styled.img`
+    height: 15rem;
+    width: 20rem;
+    display: flex;
+`
+export const Text1 = styled.div`
+    color: black;
+    font-size: 3rem;
+    font-weight: 800;
+    text-decoration: underline;
+`
+export const Text2 = styled.div`
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
 `
 
-
-
-// export const BoldText = styled.div`
-//     display: flex;
-//     flex-direction: column;
-//     flex: 7; 
-//     width: 50px;
-//     height: 200px;
-//     border-style: solid;
-
-//     /* margin-left: 1300px;
-//     margin-top: 1300px; */
-//     margin-left: 10rem; 
-//     margin-bottom: 10rem;
-//     z-index: 1;
-// `
-
-// export const Text1 = styled.div`
-//     /* font-weight: 800;
-//     font-size: 75px; */
-//     text-decoration: underline;
-//     font-weight: 700;
-//     font-size: 45px;
-
-// `
-
-// export const Text2 = styled.div`
-//     font-weight: 300;
-//     /* font-size: 23px; */
-//     font-size: 13px;
-// `
-
-// export const Image = styled.img`
-//     display: flex;
-//     flex: 3;
-//     margin-right: 10rem;
-//     margin-bottom: 15rem;
-//     width: 450px;
-//     height: 342px;
-//     z-index: -1;
-// `

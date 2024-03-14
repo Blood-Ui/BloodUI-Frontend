@@ -102,3 +102,6 @@ border: none;
     border: 2px solid #B92727;
 }
 `
+export const DonorImage = styled.div`
+    margin-right: 20rem;
+`

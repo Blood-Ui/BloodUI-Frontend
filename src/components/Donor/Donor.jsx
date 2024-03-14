@@ -1,7 +1,7 @@
-import { Box1, Box2,Box3, Input1, Input3, Input4, Input5, Input6, RedButton, RedButtondiv, Select1, Select2 } from "./DonorStyles.jsx";
+import { Box1, Box2,Box3, Input1, Input3, Input4, Input5, Input6, RedButton, RedButtondiv, Select1, Select2 , DonorImage} from "./DonorStyles.jsx";
 import React from "react";
 import { useState } from "react";
-import image1 from "../../assets/image1.png";
+import image1 from "../../assets/Donor.png"
 
 function Donor() {
   const [bgroup, setBgroup] = useState("");
@@ -118,14 +118,13 @@ function Donor() {
               </div>
             </Box3>
           </div>
-          <div>
+          <DonorImage>
             <img
               src={image1}
-              alt="image1"
-              style={{ width: "24rem", marginRight: "0" }}
+              alt="donorimage"
+              style={{ width: "17rem"}}
             />
-            <p>Join Us and be the reason for someone's existence.</p>
-          </div>
+          </DonorImage>
         </Box2>
         
       </Box1>
