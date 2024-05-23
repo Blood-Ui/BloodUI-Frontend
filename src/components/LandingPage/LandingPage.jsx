@@ -1,4 +1,3 @@
-import React from 'react'
 import { RedStripTop ,Container, Content, Logo, About, ImageDisplay, SuperHero, Text1, Text2} from './LandingPageStyled.jsx'
 import logo from '../../assets/logo.png'
 import superHero from '../../assets/superhero.png'
@@ -23,7 +22,7 @@ const LandingPage = () => {
         <ImageDisplay>
           <SuperHero src={superHero} alt="superhero" />
           <Text1>Be a <br />Superhero</Text1>
-          <Text2>Join Us and be the reason for someone's existence.</Text2>
+          <Text2>Join Us and be the reason for someones existence.</Text2>
         </ImageDisplay>
 
       </Container>
