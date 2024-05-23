@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import './LoginStyles.css'
 
 
@@ -23,8 +23,8 @@ const Login = () => {
                     <div className="input-field">
                       <input type="password" placeholder='Password' />
                     </div>
-                    <a class="frgt" href="#" >Forgot  your  Password ?</a>
-                    <div class="btn">
+                    <a className="frgt" href="#" >Forgot  your  Password ?</a>
+                    <div className="btn">
                         <button type="submit">SIGN IN</button>
                     </div>
                 </form>
