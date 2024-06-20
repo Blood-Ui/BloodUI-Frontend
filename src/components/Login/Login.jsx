@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './LoginStyles.css';
+import '../../Styles/LoginStyles.css';
 import 'boxicons/css/boxicons.min.css';
 
 const SignInSignUp = () => {
