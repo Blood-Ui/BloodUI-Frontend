@@ -1,14 +1,14 @@
-import React, { useState } from 'react'
-import home from '../../assets/Home.png';
-import about from '../../assets/About.png';
-import donate from '../../assets/Donate.png';
-import findDonor from '../../assets/FindDonor.png';
-import contact from '../../assets/Contact.png';
-import logoWhite from '../../assets/logoWhite.png'
-import logout from '../../assets/logout.png'
-import userPic from '../../assets/user.jpg'
+// import { useState } from 'react'
+import home from '../assets/Home.png';
+import about from '../assets/About.png';
+import donate from '../assets/Donate.png';
+import findDonor from '../assets/FindDonor.png';
+import contact from '../assets/Contact.png';
+import logoWhite from '../assets/logoWhite.png'
+import logout from '../assets/logout.png'
+import userPic from '../assets/user.jpg'
 
-import { Logo, Sidebar, SidebarBody, SidebarButtons, SidebarButton, SidebarText, LogoutSection, ProfileSection, UserPic, Logout, Img } from './SidebarStyled';
+import { Logo, Sidebar, SidebarBody, SidebarButtons, SidebarButton, SidebarText, LogoutSection, ProfileSection, UserPic, Logout, Img } from '../Styles/SidebarStyled';
 
 const SideBar = () => {
 
