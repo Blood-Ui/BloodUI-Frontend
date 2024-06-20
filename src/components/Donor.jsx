@@ -1,18 +1,18 @@
-import { Box1, Box2,Box3, Input1, Input3, Input4, Input5, Input6, RedButton, RedButtondiv, Select1, Select2 } from "../../Styles/DonateStyles";
+import { Box1, Box2,Box3, Input1, Input3, Input4, Input5, Input6, RedButton, RedButtondiv, Select1, Select2 , DonorImage} from "../Styles/DonorStyles";
 import { useState } from "react";
-import image1 from "../../assets/image1.png";
+import image1 from "../assets/Donor.png"
 
-function Donate() {
+function Donor() {
   const [bgroup, setBgroup] = useState("");
   return (
     <>
       <Box1>
-        <h4 style={{margin:'1.5rem 0',fontSize:'1.2rem'}}>Details</h4>
+        <h4 style={{margin:'1.5rem 0',fontSize:'1.2rem'}}>Update Requirements</h4>
         <Box2>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <Box3 style={{ display: "flex" }}>
               <div>
-                <label htmlFor="name">Name *</label>
+                <label htmlFor="name">Patient Name *</label>
                 <br />
                 <Input1
                   type="text"
@@ -117,14 +117,13 @@ function Donate() {
               </div>
             </Box3>
           </div>
-          <div>
+          <DonorImage>
             <img
               src={image1}
-              alt="image1"
-              style={{ width: "24rem", marginRight: "0" }}
+              alt="donorimage"
+              style={{ width: "17rem"}}
             />
-            <p>Join Us and be the reason for someones existence.</p>
-          </div>
+          </DonorImage>
         </Box2>
         
       </Box1>
@@ -132,4 +131,4 @@ function Donate() {
   );
 }
 
-export default Donate;
+export default Donor;

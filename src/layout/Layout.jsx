@@ -1,9 +1,9 @@
-import SideBar from "../components/SideBar/SideBar"
-import Donor from "../components/Donor/Donor"
-import Donate from "../components/Donate/Donate"
-import Login  from "../components/Login/Login"
-import { Box1 } from "./LayoutStyles"
-import LandingPage from "../components/LandingPage/LandingPage"
+import SideBar from "../components/SideBar"
+import Donor from "../components/Donor"
+import Donate from "../components/Donate"
+import Login  from "../components/Login"
+import { Box1 } from "../Styles/LayoutStyles"
+import LandingPage from "../components/LandingPage"
 function Layout() {
   return (
     <>
