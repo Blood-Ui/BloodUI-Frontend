@@ -1,5 +1,4 @@
 import { Box1, Box2,Box3, Input1, Input3, Input4, Input5, Input6, RedButton, RedButtondiv, Select1, Select2 } from "./DonateStyles.jsx";
-import React from "react";
 import { useState } from "react";
 import image1 from "../../assets/image1.png";
 
