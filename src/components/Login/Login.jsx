@@ -19,7 +19,7 @@ const SignInSignUp = () => {
         <div className="wrapper">
           <form action="">
             <h1>Sign In</h1>
-            <div className="social-media">
+            {/* <div className="social-media">
               <a href="#" className="social-icon">
                 <i className="bx bxl-facebook"></i>
               </a>
@@ -29,7 +29,7 @@ const SignInSignUp = () => {
               <a href="#" className="social-icon">
                 <i className="bx bxl-google"></i>
               </a>
-            </div>
+            </div> */}
             <span>or use your account</span>
             <div className="input-field">
               <input type="email" placeholder="Email" />
@@ -51,7 +51,7 @@ const SignInSignUp = () => {
         <div className="wrapper">
           <form action="">
             <h1>Create Account</h1>
-            <div className="social-media">
+            {/* <div className="social-media">
               <a href="#" className="social-icon">
                 <i className="bx bxl-facebook"></i>
               </a>
@@ -61,7 +61,7 @@ const SignInSignUp = () => {
               <a href="#" className="social-icon">
                 <i className="bx bxl-google"></i>
               </a>
-            </div>
+            </div> */}
             <span>or use your email for registration</span>
             <div className="input-field">
               <input type="text" placeholder="Name" />
